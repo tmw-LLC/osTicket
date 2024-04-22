@@ -4,15 +4,15 @@ if(!defined('SETUPINC')) die('Kwaheri!');
 ?>
 
     <div id="main">
-            <h2><?php echo __('Thank You for Choosing osTicket!');?></h2>
+            <h2><?php echo __('Thank You for Choosing SurePay Ticket!');?></h2>
             <div id="intro">
              <p><?php echo __('We are delighted you have chosen osTicket for your customer support ticketing system!');?></p>
             <p><?php echo __("The installer will guide you every step of the way in the installation process. You're minutes away from your awesome customer support system!");?></p>
             </div>
             <h2><?php echo __('Prerequisites');?></h3>
-            <p><?php echo __("Before we begin, we'll check your server configuration to make sure you meet the minimum requirements to run the latest version of osTicket.");?></p>
+            <p><?php echo __("Before we begin, we'll check your server configuration to make sure you meet the minimum requirements to run the latest version of SurePay Ticket.");?></p>
             <h3><?php echo __('Required');?>: <font color="red"><?php echo $errors['prereq']; ?></font></h3>
-            <?php echo __('These items are necessary in order to install and use osTicket.');?>
+            <?php echo __('These items are necessary in order to install and use SurePay Ticket.');?>
             <ul class="progress">
                 <li class="<?php echo $installer->check_php()?'yes':'no'; ?>">
                 <?php echo sprintf(__('%s or greater'), '<span class="ltr">PHP v'.SetupWizard::getPHPVersion().'</span>');?> &mdash; <small class="ltr">(<b><?php echo PHP_VERSION; ?></b>)</small></li>
@@ -21,7 +21,7 @@ if(!defined('SETUPINC')) die('Kwaheri!');
                     echo extension_loaded('mysqli')?__('module loaded'):__('missing!'); ?></b></small></li>
             </ul>
             <h3><?php echo __('Recommended');?>:</h3>
-            <?php echo __('You can use osTicket without these, but you may not be able to use all features.');?>
+            <?php echo __('You can use SurePay Ticket without these, but you may not be able to use all features.');?>
             <ul class="progress">
                 <li class="<?php echo extension_loaded('gd')?'yes':'no'; ?>">Gdlib <?php echo __('Extension');?></li>
                 <li class="<?php echo extension_loaded('imap')?'yes':'no'; ?>">PHP IMAP <?php echo __('Extension');?> &mdash; <em><?php
@@ -53,6 +53,6 @@ if(!defined('SETUPINC')) die('Kwaheri!');
     <div id="sidebar">
             <h3><?php echo __('Need Help?');?></h3>
             <p>
-            <?php echo __('If you are looking for a greater level of support, we provide <u>professional installation services</u> and commercial support with guaranteed response times, and access to the core development team. We can also help customize osTicket or even add new features to the system to meet your unique needs.');?> <a target="_blank" href="https://osticket.com/support"><?php echo __('Learn More!');?></a>
+            <?php echo __('If you are looking for a greater level of support, we provide <u>professional installation services</u> and commercial support with guaranteed response times, and access to the core development team. We can also help customize osTicket or even add new features to the system to meet your unique needs.');?> <a target="_blank" href="https://surepayltd.com/support"><?php echo __('Learn More!');?></a>
             </p>
     </div>

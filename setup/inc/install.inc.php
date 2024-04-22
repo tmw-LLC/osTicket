@@ -3,8 +3,8 @@ if(!defined('SETUPINC')) die('Kwaheri!');
 $info=($_POST && $errors)?Format::htmlchars($_POST):array('prefix'=>'ost_','dbhost'=>'localhost','lang_id'=>'en_US');
 ?>
 <div id="main" class="step2">
-    <h1><?php echo __('osTicket Basic Installation'); ?></h1>
-        <p><?php echo __('Please fill out the information below to continue your osTicket installation. All fields are required.');?></p>
+    <h1><?php echo __('SurePay Ticket Basic Installation'); ?></h1>
+        <p><?php echo __('Please fill out the information below to continue your SurePay Ticket installation. All fields are required.');?></p>
             <font class="error"><strong><?php echo $errors['err']; ?></strong></font>
             <form action="install.php" method="post" id="install">
                 <input type="hidden" name="s" value="install">
@@ -120,7 +120,7 @@ $info=($_POST && $errors)?Format::htmlchars($_POST):array('prefix'=>'ost_','dbho
             </form>
     </div>
     <div>
-        <p><strong><?php echo __('Need Help?');?></strong> <?php echo __('We provide <u>professional installation services</u> and commercial support.');?> <a target="_blank" href="https://osticket.com/support"><?php echo __('Learn More!');?></a></p>
+        <p><strong><?php echo __('Need Help?');?></strong> <?php echo __('We provide <u>professional installation services</u> and commercial support.');?> <a target="_blank" href="https://surepayltd.com/support"><?php echo __('Learn More!');?></a></p>
     </div>
     <div id="overlay"></div>
     <div id="loading">

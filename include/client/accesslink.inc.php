@@ -24,7 +24,7 @@ else
     <div><strong><?php echo Format::htmlchars($errors['login']); ?></strong></div>
     <div>
         <label for="email"><?php echo __('Email Address'); ?>:
-        <input id="email" placeholder="<?php echo __('e.g. john.doe@osticket.com'); ?>" type="text"
+        <input id="email" placeholder="<?php echo __('e.g. john@surepayltd.com'); ?>" type="text"
             name="lemail" size="30" value="<?php echo $email; ?>" class="nowarn"></label>
     </div>
     <div>

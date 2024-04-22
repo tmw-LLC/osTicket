@@ -1,4 +1,12 @@
 <?php
+/*
+ * @Author: Tutu Moses etu.moses@gmail.com
+ * @Date: 2024-02-12 07:29:26
+ * @LastEditors: Tutu Moses etu.moses@gmail.com
+ * @LastEditTime: 2024-02-12 07:57:25
+ * @FilePath: /surepay-ticket/SurePayTicket/index.php
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 /*********************************************************************
     index.php
 
@@ -38,7 +46,7 @@ if ($cfg && $cfg->isKnowledgebaseEnabled()) { ?>
     if($cfg && ($page = $cfg->getLandingPage()))
         echo $page->getBodyWithImages();
     else
-        echo  '<h1>'.__('Welcome to the Support Center').'</h1>';
+        echo  '<h1>'.__('Welcome to the SurePay Support Center').'</h1>';
     ?>
     </div>
 </div>

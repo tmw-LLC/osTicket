@@ -146,6 +146,6 @@ if($thisstaff->forcePasswdChange() && !$exempt) {
     exit;
 }
 $ost->setWarning($sysnotice);
-$ost->setPageTitle(__('osTicket :: Staff Control Panel'));
+$ost->setPageTitle(__('SurePay Ticket :: Staff Control Panel'));
 
 ?>

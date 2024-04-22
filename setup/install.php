@@ -24,11 +24,11 @@ define('OSTICKET_CONFIGFILE','../include/ost-config.php'); //XXX: Make sure the 
 
 $installer = new Installer(OSTICKET_CONFIGFILE); //Installer instance.
 $wizard=array();
-$wizard['title']=__('osTicket Installer');
+$wizard['title']=__('SurePay Ticket Installer');
 $wizard['tagline']=sprintf(__('Installing osTicket %s'),$installer->getVersionVerbose());
 $wizard['logo']='logo.png';
-$wizard['menu']=array(__('Installation Guide')=>'https://docs.osticket.com/en/latest/Getting%20Started/Installation.html',
-        __('Get Professional Help')=>'https://osticket.com/support');
+$wizard['menu']=array(__('Installation Guide')=>'https://surepayltd.com',
+        __('Get Professional Help')=>'https://Surepayltd.com/support');
 
 if($_POST && $_POST['s']) {
     $errors = array();
